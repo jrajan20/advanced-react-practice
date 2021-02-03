@@ -1,0 +1,138 @@
+.add-book-button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #128dff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-book-button-main {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #128dff;
+  color: white;
+  margin: 64px auto;
+  cursor: pointer;
+}
+.book-list {
+  overflow: auto;
+  margin-bottom: 32px;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  border: 1px slid grey;
+}
+
+.name-select {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.delete-button {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-title {
+  font-size: 200%;
+  font-weight: bold;
+  margin: 0;
+}
+.close-modal {
+  font-size: 24px;
+  padding: 0;
+  margin: 24px 24px 0 0;
+  cursor: pointer;
+  text-align: right;
+}
+
+.enter-details-box {
+  margin: 32px;
+  display: flex;
+  justify-content: space-between;
+
+  height: 64px;
+}
+label {
+  font-size: 24px;
+}
+
+input {
+  min-height: 32px;
+  font-size: 24px;
+}
+
+.enter-desc-box {
+  margin: 32px;
+  padding: 0;
+}
+
+.des-input {
+  height: 200px;
+  width: calc(100% - 8px);
+
+  font-size: 24px;
+  resize: none;
+}
+
+.cancel-button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: red;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px 32px;
+}
+
+.error-box {
+  text-align: center;
+  color: red;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  width: 250px;
+  max-width: 250px;
+  text-align: center;
+  padding: 12px 12px;
+  word-wrap: break-word;
+}
